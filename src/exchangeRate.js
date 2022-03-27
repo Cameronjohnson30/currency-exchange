@@ -8,7 +8,7 @@ export default class exchangeRate {
         return response.json();
       })
       .catch(function(error) {  
-        return error
+        return error;
       });
   }
 }
