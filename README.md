@@ -20,7 +20,7 @@ _This website displays a form to input a currency you wish to exchange for anoth
 _Clone or download the repository to your desktop._
 * _Go to https://www.exchangerate-api.com enter your email to get an API_KEY_
 * _Open folder in your choice of code editor I use VS code for example_
-* _create an .env file and save the API_KEY from email in there_
+* _create an .env file and save the API_KEY from email in there as API_KEY=your apikey here_
 * _Run npm install in the terminal_
 * _Run npm run build_
 * _Run npm run start_
