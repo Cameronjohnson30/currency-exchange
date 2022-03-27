@@ -10,7 +10,7 @@ function clearResults () {
 }
 
 function getElements(response) {
-  if (response) {
+  if (response.conversion_result) {
     $('.showResults').text(`The total exchange ${response.conversion_result}.`);
   } else {
     $('.showErrors').text(`There was an error: ${response}`);
